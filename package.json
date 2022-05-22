@@ -1,0 +1,16 @@
+{
+  "name": "aria-rpg",
+  "version": "0.0.0",
+  "description": "An RPG game",
+  "main": "index.js",
+  "author": "baudin999",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "yarn --cwd ./ui run dev & swa start http://localhost:5000 --api-location ./api",
+    "build-ui": "yarn --cwd ./ui run build"
+  },
+  "dependencies": {
+    "@azure/static-web-apps-cli": "^1.0.1"
+  }
+}
